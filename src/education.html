@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - My Education</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .document {
+            margin-bottom: 40px;
+        }
+        .document embed, .document iframe {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #ccc;
+        }
+        @media (max-width: 768px) {
+            .document embed, .document iframe {
+                height: 400px;
+            }
+        }
+        .download-link {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Abubker Juhar</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="hobby.html">Hobbies</a>
+            <a href="education.html">Education</a>
+            <a href="cv.html">CV</a>
+            <a href="adventures.html">Adventures</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>My Education</h2>
+        
+            <!-- University Education -->
+            <article class="education-article">
+                <h3>Software Engineering at AAiT</h3>
+                <p>I am currently a 3rd-year Software Engineering student at AAiT, building a strong foundation in both technical skills and development principles.</p>
+                
+                <h4>Relevant Courses</h4>
+                <ul>
+                    <li>Data Structures</li>
+                    <li>Networking</li>
+                    <li>Object-Oriented Programming (OOP)</li>
+                    <li>Database Management</li>
+                    <li>Web Development (currently enrolled)</li>
+                    <li>Fundamentals of Software (currently enrolled)</li>
+                </ul>
+                
+                <h4>Academic Performance</h4>
+                <table>
+                    <tr>
+                        <th>Semester</th>
+                        <th>GPA</th>
+                    </tr>
+                    <tr>
+                        <td>Freshman Year, 1st Semester</td>
+                        <td>4.0</td>
+                    </tr>
+                    <tr>
+                        <td>Freshman Year, 2nd Semester</td>
+                        <td>3.89</td>
+                    </tr>
+                    <tr>
+                        <td>2nd Year, 1st Semester</td>
+                        <td>3.83</td>
+                    </tr>
+                    <tr>
+                        <td>2nd Year, 2nd Semester</td>
+                        <td>3.62</td>
+                    </tr>
+                    <tr>
+                        <th>Current CGPA</th>
+                        <th>3.83</th>
+                    </tr>
+                </table>
+            </article>
+        
+            <!-- High School Education -->
+            <article class="education-article">
+                <h3>High School: Spring of Knowledge Academy</h3>
+                <p>I attended Spring of Knowledge Academy for high school, where my early interests in technology and software development were formed, preparing me for my university studies.</p>
+            </article>
+        </section>
+
+        <!-- Documents Showcase Section -->
+        <section>
+            <h2>Documents</h2>
+            <p>Here are some of my educational documents:</p>
+
+            <div class="document">
+                <h3>Academic Transcript</h3>
+                <embed src="documents/transcript.pdf" type="application/pdf" />
+                <p class="download-link"><a href="documents/transcript.pdf" target="_blank" download>Download Transcript (PDF)</a></p>
+            </div>
+
+            <div class="document">
+                <h3>Recommendation</h3>
+                <embed src="documents/recommendation.pdf" type="application/pdf" />
+                <p class="download-link"><a href="documents/recommendation.pdf" target="_blank" download>Download recommendation (PDF)</a></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Abubker Juhar. All rights reserved.</p>
+    </footer>
+</body>
+</html>

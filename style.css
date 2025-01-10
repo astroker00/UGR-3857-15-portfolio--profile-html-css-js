@@ -16,7 +16,7 @@ body {
 
 header {
     background-color:#56d856;
-    color: #fff;
+    color: #242424;
     padding: 1rem 0;
     display: flex;
     flex-wrap: wrap;
@@ -39,7 +39,7 @@ header .menu-icon,
 header .search-icon {
     font-size: 1.8rem;
     cursor: pointer;
-    color: #fff;
+    color: #242424;
     position: absolute;
     top: 1rem; /* Aligns them properly within the header */
 }
@@ -119,7 +119,8 @@ header nav a {
     font-size: 1rem;
 }
 .active {
-    color:#333333;
+    color:#242424;
+    font-weight: bold;
 }
 
 header nav a:hover {
@@ -468,7 +469,7 @@ footer {
     text-align: center;
     padding: 1rem;
     background-color: #56d856;
-    color: #fff;
+    color: #242424;
     width: 100%;
     position: static;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
